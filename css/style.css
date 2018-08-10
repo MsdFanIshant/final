@@ -50,7 +50,19 @@ body {
         text-align: left;
     }
 }
-
+.noemp{
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Boogaloo', cursive;
+    color: gold;
+}
+.clpara{
+    font-size: 40px;
+    text-align: center;
+    color: slategrey;
+    font-family: 'Boogaloo', cursive;
+    font-weight: bolder;
+}
 .contact{
     width: 100%;
     height: 200px;
@@ -63,7 +75,7 @@ body {
 }
 #h1{
     text-align: center;
-    font-size: 120px;
+    font-size: 100px;
     font-family: Algerian;
     margin-top: 100px;
     animation-name: heading;
@@ -83,6 +95,7 @@ body {
     position: fixed;
     top: 550px;
     width: 100%;
+    font-family: 'Boogaloo', cursive;
 }
 @keyframes mainanimation {
     25%{
@@ -394,7 +407,16 @@ body {
 }
 
 @media (max-width: 500px) {
+    .clpara{
+        font-size: 25px;
+    }
 
+    .noemp{
+        text-align: center;
+        font-size: 25px;
+        font-family: 'Boogaloo', cursive;
+        color: gold;
+    }
     #h1 {
         text-align: center;
         font-size: 40px;
